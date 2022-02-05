@@ -1,0 +1,28 @@
+#backgroundPane {
+     -fx-background-image: url("background.jpg");
+     -fx-text-fill: black;
+     -fx-padding: 5px;
+}
+.label{
+	-fx-text-fill: white;
+}
+
+.root{
+	-fx-font-family:"Times New Roman";
+	-fx-font-size: 14pt;
+	-fx-font-weight: bold;
+
+	
+}
+.text-field{
+	-fx-alignment: center;
+	
+	
+}
+.button {
+    -fx-text-fill: white;
+    -fx-font-family: "Times New Roman";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#21130d, #21130d);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
